@@ -1,0 +1,31 @@
+{
+  "name": "SSR-React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://GiovanniL19@github.com/GiovanniL19/SSR-React.git",
+  "author": "Giovanni Lenguito <giovanni16.gl@gmail.com>",
+  "license": "Apache 2.0",
+  "scripts": {
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "espress": "^0.0.0",
+    "firebase-admin": "^5.11.0",
+    "firebase-functions": "^1.0.0",
+    "firebase-tools": "^3.18.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
