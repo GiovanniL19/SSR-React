@@ -6,13 +6,13 @@
   "author": "Giovanni Lenguito <giovanni16.gl@gmail.com>",
   "license": "Apache 2.0",
   "scripts": {
-    "webpack": "node_modules/.bin/webpack",
-    "babel": "node_modules/.bin/babel src -d functions/src; node_modules/.bin/babel index.js -d functions/"
+    "babel": "node_modules/.bin/babel webapp/src -d functions/src; node_modules/.bin/babel index.js -d functions"
   },
   "dependencies": {
     "express": "^4.16.3",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
