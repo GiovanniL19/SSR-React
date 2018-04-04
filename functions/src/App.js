@@ -41,16 +41,42 @@ var App = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        _reactRouterDom.Switch,
+        'div',
         null,
-        _react2.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: '/',
-          component: _Home2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, {
-          exact: true,
-          path: '/test',
-          component: _Test2.default })
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              _reactRouterDom.Link,
+              { to: '/ssr-react-94b59/us-central1/ssrApp/' },
+              'Home'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              _reactRouterDom.Link,
+              { to: '/ssr-react-94b59/us-central1/ssrApp/test' },
+              'Test'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactRouterDom.Switch,
+          null,
+          _react2.default.createElement(_reactRouterDom.Route, {
+            exact: true,
+            path: '/',
+            component: _Home2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, {
+            exact: true,
+            path: '/test',
+            component: _Test2.default })
+        )
       );
     }
   }]);
