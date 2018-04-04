@@ -8,17 +8,6 @@ This is a test project called SSR-React, designed to be deployed to Firebase, al
 ```
 $ yarn install
 $ firebase init
-```
-
-## Client Side
-```
-$ yarn webpack
-$ cd public
-$ firebase serve
-```
-
-## Server Side
-```
 $ yarn babel
 $ firebase serve --only functions
 ```
