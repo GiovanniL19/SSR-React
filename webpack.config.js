@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-  entry: './web/index.js',
+  entry: './src/index.js',
 
   module: {
     rules: [

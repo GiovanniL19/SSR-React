@@ -6,9 +6,11 @@
   "author": "Giovanni Lenguito <giovanni16.gl@gmail.com>",
   "license": "Apache 2.0",
   "scripts": {
-    "webpack": "node_modules/.bin/webpack"
+    "webpack": "node_modules/.bin/webpack",
+    "babel": "node_modules/.bin/babel src -d functions/src; node_modules/.bin/babel index.js -d functions/"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
@@ -21,7 +23,6 @@
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
-    "espress": "^0.0.0",
     "firebase-admin": "^5.11.0",
     "firebase-functions": "^1.0.0",
     "firebase-tools": "^3.18.0",
